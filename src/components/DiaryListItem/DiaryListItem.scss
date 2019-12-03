@@ -1,3 +1,32 @@
 .DiaryListItem {
   width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+  // &:last-child {
+  //   margin-top: 0px;
+  // }
+  .chk__box {
+    cursor: pointer;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    padding: 10px;
+    .checked {
+      svg {
+        color: #8186d5;
+      }
+    }
+    .text {
+      padding-left: 10px;
+    }
+  }
+  .chk__delete {
+    padding: 10px;
+    color: #940a37;
+  }
 }

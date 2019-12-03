@@ -1,3 +1,25 @@
+input {
+  -webkit-appearance: none;
+
+  -moz-appearance: none;
+
+  appearance: none;
+}
+
+textarea {
+  -webkit-appearance: none;
+
+  -moz-appearance: none;
+
+  appearance: none;
+}
+button {
+  -webkit-appearance: none;
+
+  -moz-appearance: none;
+
+  appearance: none;
+}
 .App {
   text-align: center;
 }
